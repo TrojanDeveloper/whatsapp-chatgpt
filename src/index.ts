@@ -13,7 +13,7 @@ export const api = new ChatGPTAPI({
 const client = new Client({});
 
 client.on("qr", (qr) => {
-  // Generate and scan this code with your phone
+  // Generate and scan this code with your phone...
   qrcode.generate(qr, { small: true });
 });
 
